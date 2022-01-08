@@ -16,6 +16,7 @@
 		C3B129FC2789DA2100F53783 /* Chat_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B129FB2789DA2100F53783 /* Chat_AppTests.swift */; };
 		C3B12A062789DA2100F53783 /* Chat_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B12A052789DA2100F53783 /* Chat_AppUITests.swift */; };
 		C3B12A082789DA2100F53783 /* Chat_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B12A072789DA2100F53783 /* Chat_AppUITestsLaunchTests.swift */; };
+		C3B12A152789DA8500F53783 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3B12A142789DA8500F53783 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C3B12A012789DA2100F53783 /* Chat_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chat_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B12A052789DA2100F53783 /* Chat_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_AppUITests.swift; sourceTree = "<group>"; };
 		C3B12A072789DA2100F53783 /* Chat_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B12A142789DA8500F53783 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				C3B129E42789DA1D00F53783 /* AppDelegate.swift */,
 				C3B129E62789DA1D00F53783 /* SceneDelegate.swift */,
+				C3B12A142789DA8500F53783 /* GoogleService-Info.plist */,
 				C3B129E82789DA1D00F53783 /* ViewController.swift */,
 				C3B129EA2789DA1D00F53783 /* Main.storyboard */,
 				C3B129ED2789DA2000F53783 /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B129F12789DA2000F53783 /* LaunchScreen.storyboard in Resources */,
+				C3B12A152789DA8500F53783 /* GoogleService-Info.plist in Resources */,
 				C3B129EE2789DA2000F53783 /* Assets.xcassets in Resources */,
 				C3B129EC2789DA1D00F53783 /* Main.storyboard in Resources */,
 			);
