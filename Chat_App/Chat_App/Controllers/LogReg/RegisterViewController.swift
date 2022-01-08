@@ -95,8 +95,8 @@ class RegisterViewController: UIViewController {
     private func alertUserErrorRegister(){
         
         
-            let alert = UIAlertController(title: "Miss Some thing",
-                                          message: "Please Entry all inforamtion to create an account", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Missing Information",
+                                          message: "Please fill all the inforamtion to create an account", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title:"Ok", style: .cancel, handler: nil))
             
             self.present(alert, animated: true, completion: nil)

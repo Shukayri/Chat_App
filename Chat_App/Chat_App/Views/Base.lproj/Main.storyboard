@@ -371,7 +371,7 @@
         <scene sceneID="vgB-nY-78W">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mIe-Nb-ml5" userLabel="Conversations" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="dId-kt-5mu"/>
+                    <tabBarItem key="tabBarItem" title="Conversations" image="bubble_outlined_tail_v2" id="dId-kt-5mu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RWT-W9-fYh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -460,7 +460,7 @@
         <scene sceneID="nAf-ey-3fE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WXI-Qh-cJE" userLabel="Profile" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="sRK-DR-hKC"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="ic_user" id="sRK-DR-hKC" userLabel="Profile"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ff1-P6-1hE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -478,6 +478,8 @@
     </scenes>
     <resources>
         <image name="Messenger" width="1500" height="1000"/>
+        <image name="bubble_outlined_tail_v2" width="57" height="37"/>
+        <image name="ic_user" width="25" height="25"/>
         <image name="keyboard" catalog="system" width="128" height="79"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.circle" catalog="system" width="128" height="121"/>

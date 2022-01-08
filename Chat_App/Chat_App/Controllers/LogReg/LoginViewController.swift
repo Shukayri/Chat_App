@@ -119,8 +119,8 @@ class LoginViewController : UIViewController   {
     
     func alertWorngEmail(){
         
-        let alert = UIAlertController(title: "Incorrect Username",
-                                      message: "Please check your username and try again.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Incorrect Username or Password",
+                                      message: "Please check your credentials and try again.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title:"Ok", style: .default, handler: nil))
         
         self.present(alert, animated: true, completion: nil)
